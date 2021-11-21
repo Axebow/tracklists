@@ -202,7 +202,6 @@ code {
 
 #App{
   display: flex;
-  justify-content: center;
   padding: 0 20%;
   flex-direction: column;
 }
@@ -282,6 +281,12 @@ grid-template-columns: 25% 25% 25% 25%;
 .grid-tabular{
     display: grid;
     grid-template-columns: 60% 20% 20%;
+    padding: 10px;
+}
+
+.grid-tabular-alt{
+    display: grid;
+    grid-template-columns: 20% 80%; 
     padding: 10px;
 }
 
@@ -404,8 +409,8 @@ background-color: var(--success-hover);
     text-align: left;
 }
 
-.chonky-borders{
-    margin: 10% 0;
+.chonky-margins{
+    margin: 15% 0 10% 0;
 }
 
 #themeSelector{
@@ -421,12 +426,17 @@ background-color: var(--success-hover);
     right: 1em;
 }
 
+.fab:hover, .fas:hover, .hover-highlight:hover{
+    color: var(--secondary);
+    opacity: 1;
+}
+
 @media screen and (max-width: 800px){
     #App{
         padding: 0 5%;
     }
 
-    .grid-tabular div{
+    .grid-tabular div, .grid-tabular-alt div{
         font-size: 15px !important;
     }
 }
