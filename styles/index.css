@@ -439,4 +439,8 @@ background-color: var(--success-hover);
     .grid-tabular div, .grid-tabular-alt div{
         font-size: 15px !important;
     }
+
+    .grid-tabular-alt{
+        grid-template-columns: 30% 70%;
+    }
 }
