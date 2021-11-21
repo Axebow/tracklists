@@ -404,6 +404,10 @@ background-color: var(--success-hover);
     text-align: left;
 }
 
+.chonky-borders{
+    margin: 10% 0;
+}
+
 #themeSelector{
     cursor: pointer;
     width: 50px;
