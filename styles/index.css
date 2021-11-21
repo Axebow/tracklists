@@ -419,6 +419,10 @@ background-color: var(--success-hover);
 
 @media screen and (max-width: 800px){
     #App{
-        padding: 0 10%;
+        padding: 0 5%;
+    }
+
+    .grid-tabular div{
+        font-size: 15px !important;
     }
 }
