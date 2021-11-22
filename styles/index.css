@@ -410,7 +410,11 @@ background-color: var(--success-hover);
 }
 
 .chonky-margins{
-    margin: 15% 0 10% 0;
+    margin: 10% 0 5% 0;
+}
+
+.spaced-out{
+  margin: 10px;
 }
 
 #themeSelector{
